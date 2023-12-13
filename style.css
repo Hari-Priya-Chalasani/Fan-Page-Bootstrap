@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron&family=Silkscreen&display=swap');
+
+    body {
+        background: linear-gradient(-60.76deg, rgb(150, 121, 255) 0%, rgb(212, 153, 234) 57.96%, rgb(238, 164, 179) 100%);
+        
+    }
+
+    .nav-logo {
+        height: 80px;
+        border-radius: 150px;
+    }
+
+    .logo-text {
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgb(43, 20, 20);
+    }
+
+    .items-nav {
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .items-nav:hover {
+        text-decoration: underline;
+    }
+
+    .anchor {
+        margin-left: auto;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .what-h1 {
+        text-align: center;
+        margin-top: 50px;
+        padding: 60px;
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 50px;
+        color: rgb(43, 20, 20);
+    }
+
+    .what-p {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 25px;
+    }
+    .album-image{
+        height: 410px;
+        padding: 20px;
+        border-radius: 28px;
+    }
+    .album-h1{
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 50px;
+        color: rgb(43, 20, 20);
+    }
+    .album-h2{
+        text-align: center;
+        font-family: Orbitron;
+        font-weight: bold;
+        color: rgb(43, 20, 20);
+        padding: 20px;
+    }
+    .album-p{
+        text-align: center;
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+    }
+    .card-back{
+    background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .member-title{
+        text-align: center;
+        margin-top: 80px;
+        padding: 60px;
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 50px;
+        color: rgb(43, 20, 20);
+    }
+    .member-h1{
+        text-align: center;
+        padding: 25px;
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgb(43, 20, 20);
+    }
+    .member-p{
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 30px;
+    }
+    .member-image{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border-radius: 10px 100px;
+        height: 500px;
+        width: 650px;
+    }
+    .member-image-even{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border-radius: 100px 10px;
+        height: 500px;
+        width: 650px;
+    }
+    .member-block{
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .top{
+        position: fixed;
+        width: 90%;
+        z-index: 10;
+    }
+    .slider-body{
+        padding-top: 10%;
+    }
+    .top-bar{
+        background: linear-gradient(-60.76deg, rgb(150, 121, 255) 0%, rgb(212, 153, 234) 57.96%, rgb(238, 164, 179) 100%);
+    }
+    .community-h1{
+        text-align: center;
+        padding: 25px;
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgb(43, 20, 20);
+    }
+    .contribute-box{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .contribute-button{
+        background-color: transparent;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        font-family: Orbitron;
+        font-weight: 900;
+        font-size: 25px;
+        color: rgb(43, 20, 20);
+        width: 150px;
+        padding: 10px;
+        margin-left: 150px;
+        margin-top: 40px;
+    }
+    .media-h1{
+        text-align: center;
+        padding: 25px;
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgb(43, 20, 20);
+        margin-top: 70px;
+    }
+    .media-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .media-image{
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+    }
+    .copy-right{
+        text-align: center;
+        padding: 25px;
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(43, 20, 20);
+    }
+    .heading{
+        font-family: Orbitron;
+        font-weight: bold;
+        font-size: 18px; 
+    }
+    .heading-box{
+        background: #d39ee7;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    
+
+
